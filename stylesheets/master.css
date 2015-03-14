@@ -1,0 +1,11 @@
+#bluemixlogo {
+	width: 75%;
+}
+
+.bg {
+  	background: url('../img/bluemix_logo.jpg') no-repeat center center;
+  	width: 100%;
+  	top:0;
+  	left:0;
+  	z-index: -1;
+}
