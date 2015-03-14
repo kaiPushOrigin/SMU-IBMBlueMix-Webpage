@@ -11,6 +11,11 @@
 
 }
 
+#hello {
+	font-size: 50px;
+	color: white;
+}
+
 .timer-area {
 	background-color: #000;
 	text-align: center;
