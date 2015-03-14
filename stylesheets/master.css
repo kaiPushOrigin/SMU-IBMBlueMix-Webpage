@@ -43,4 +43,22 @@ ul#countdown p{
 	color: white;
 	}
 
+.supporters{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bluemix {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.feedNS {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 
