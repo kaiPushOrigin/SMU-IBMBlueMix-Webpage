@@ -2,22 +2,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-  <title>SMU IBM BlueMix  athon</title>
+	<title>SMU IBM BlueMix  athon</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="bower_components/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="bower_components/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-  <!-- Just for debugging purposes. Don't actually copy this line! -->
-  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<!-- Just for debugging purposes. Don't actually copy this line! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -32,14 +32,14 @@
 
       $(document).ready(function() {
 
-        $("#countdown").countdown({
-          date: "21 march 2015 12:00:00",
+      	$("#countdown").countdown({
+      		date: "21 march 2015 12:00:00",
           format: "on" //two digits instead of one
-        },
+      },
 
-        function() {
+      function() {
           //callback function
-        });
+      });
       });
       </script>
 
@@ -48,173 +48,163 @@
       <link href="stylesheets/master.css" rel="stylesheet">
       <link href="stylesheets/signin.css" rel="stylesheet">
 
-    </head>
+  </head>
 <!-- NAVBAR
-  ================================================== -->
+	================================================== -->
 
-  <body>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="img/ibm_logo.png" height="100%"></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div><!--container-->
-    </nav>
-    <div class="jumbotron bg">
-      <h1 class="text-center">
-        <img src="img/bluemix_logo.jpg" id="bluemixlogo" />
-      </h1>
-    </div>
-    <div class="timer-area">
-      <br><br>
-      <h1 id="counterHeading">The countdown has begun!</h1>
-      <br><br>
-      <ul id="countdown">
-        <li>
-          <span class="days" id="timer">00</span> 
-          <p class="timeRefDays">days</p>
-        </li>
-        <li>
-          <span class="hours" id="timer">00</span>
-          <p class="timeRefHours">hours</p>
-        </li>
-        <li>
-          <span class="minutes" id="timer">00</span>
-          <p class="timeRefMinutes">minutes</p>
-        </li>
-        <li>
-          <span class="seconds" id="timer">00</span>
-          <p class="timeRefSeconds">seconds</p>
-        </li>
-      </ul>
-      <br><br><br>
-    </div>
-    <br><br>
-    <div class="container">
+	<body>
+		<!-- Fixed navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="img/ibm_logo.png" height="100%"></a>
+				</div>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--container-->
+		</nav> <!--navbar inverse-->
+		<div class="jumbotron bg">
+			<h1 class="text-center">
+				<img src="img/bluemix_logo.jpg" id="bluemixlogo" />
+			</h1>
+		</div>
+		<div class="timer-area">
+			<br><br>
+			<h1 id="counterHeading">The countdown has begun!</h1>
+			<br><br>
+			<ul id="countdown">
+				<li>
+					<span class="days" id="timer">00</span> 
+					<p class="timeRefDays">days</p>
+				</li>
+				<li>
+					<span class="hours" id="timer">00</span>
+					<p class="timeRefHours">hours</p>
+				</li>
+				<li>
+					<span class="minutes" id="timer">00</span>
+					<p class="timeRefMinutes">minutes</p>
+				</li>
+				<li>
+					<span class="seconds" id="timer">00</span>
+					<p class="timeRefSeconds">seconds</p>
+				</li>
+			</ul>
+			<br><br><br>
+		</div><!--timer-area-->
+		<br><br>
+		<div class="container">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Where? When?<span class="text-muted"> What is Bluemix?</span></h2>
-          <p class="lead">Bluemix is an open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, Watson services and application monitoring, as well as features from ecosystem partners and open source—all provided as-a-service in the cloud.</p>
-          <!-- Default panel contents -->
-          <div class="panel-group" id="accordion">
-            <div class="panel panel-primary">
-              <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                <h4 class="panel-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    Hackathon Schedule
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse">
-                <div class="panel-body">
-                  <table class="table">
-                    <tr>
-                      <th>#</th>
-                      <th>Saturday</th>
-                      <th>Sunday</th>
-                    </tr>
-                    <tbody>
-                      <tr>
-                        <td>9:00 AM</td>
-                        <td>Check-in & Registration</td>
-                        <td>All teams assemble at venue</td>
-                      </tr>
-                      <tr>
-                        <td>9:30 AM</td>
-                        <td>Opening Remarks by Hackmasters</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td>10:00 AM</td>
-                        <td>Team formation/Pitching your idea</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td>10:30 AM</td>
-                        <td>Getting started with IBM BlueMix ' by BlueMix Mentors</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td>11:00 AM</td>
-                        <td>Hack Begins!</td>
-                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td>3:00 PM</td>
-                        <td> </td>
-                        <td>Submit hacks & sign up for Demos</td>
-                        <tr>
-                          <tr>
-                            <td>3:30 PM</td>
-                            <td> </td>
-                            <td>Demos to Senior SMU Admins, IBM Center Manager </td>
-                            <tr>
-                              <td>4:30 PM</td>
-                              <td></td>
-                              <td>Winner announced & prize distribution.</td>
-                            </tr>
-                            <tr>
-                              <td>9:00 PM</td>
-                              <td>Day 1 Wraps up <br>(Ofcourse you can code over night but the lab will close)</td>
-                              <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div> 
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="img/what.jpg"
-                alt="Generic placeholder image" width="100%">
-              </div>
-            </div>
-            <hr class="featurette-divider">
-            <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Go Social<span class="text-muted"> or Go Home!</span></h2>
-          <p class="lead">Bluemix is an open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, Watson services and application monitoring, as well as features from ecosystem partners and open source—all provided as-a-service in the cloud.</p>
-        </div>
-        <div class="col-md-5">
-                <a class="twitter-timeline" height="400" href="https://twitter.com/bluehalifax" data-widget-id="576644444902002688">Tweets by @bluehalifax</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              </div>
-            </div>
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">Where? When?<span class="text-muted"> What is Bluemix?</span></h2>
+					<p class="lead">Bluemix is an open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, Watson services and application monitoring, as well as features from ecosystem partners and open source—all provided as-a-service in the cloud.</p>
+					<!-- Default panel contents -->
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-primary">
+							<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+										Hackathon Schedule
+									</a>
+								</h4>
+							</div><!--panel heading-->
+							<div id="collapseOne" class="panel-collapse collapse">
+								<div class="panel-body">
+									<table class="table">
+										<tr>
+											<th>#</th>
+											<th>Saturday</th>
+											<th>Sunday</th>
+										</tr>
+										<tbody>
+											<tr>
+												<td>9:00 AM</td>
+												<td>Check-in & Registration</td>
+												<td>All teams assemble at venue</td>
+											</tr>
+											<tr>
+												<td>9:30 AM</td>
+												<td>Opening Remarks by Hackmasters</td>
+												<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+											</tr>
+											<tr>
+												<td>10:00 AM</td>
+												<td>Team formation/Pitching your idea</td>
+												<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+											</tr>
+											<tr>
+												<td>10:30 AM</td>
+												<td>Getting started with IBM BlueMix ' by BlueMix Mentors</td>
+												<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+											</tr>
+											<tr>
+												<td>11:00 AM</td>
+												<td>Hack Begins!</td>
+												<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+											</tr>
+											<tr>
+												<td>3:00 PM</td>
+												<td> </td>
+												<td>Submit hacks & sign up for Demos</td>
+											</tr>
+											<tr>
+												<td>3:30 PM</td>
+												<td> </td>
+												<td>Demos to Senior SMU Admins, IBM Center Manager </td>
+											<tr>
+												<td>4:30 PM</td>
+												<td></td>
+												<td>Winner announced & prize distribution.</td>
+											</tr>
+											<tr>
+												<td>9:00 PM</td>
+												<td>Day 1 Wraps up <br>(Ofcourse you can code over night but the lab will close)</td>
+												<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+								</div> <!--panel bodu-->
+							</div> <!--panel collapse-->
+						</div> <!--panel primary-->
+					</div> <!--panel group-->
+				</div> <!--col-md-7-->
+				<div class="col-md-5">
+					<img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" src="img/what.jpg"
+								alt="Generic placeholder image" width="100%">
+				</div>
+			</div> <!-- row featurette-->
+			<hr class="featurette-divider">
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">Go Social<span class="text-muted"> or Go Home!</span></h2>
+					<p class="lead">Spread the word. <br><br>Lets go social and get this going viral!<br> <br>
+						Tweet to <b>@bluehalifax</b> and use hashtags
+					<b>#GBSUHack15 #IBM #Bluemix</b></p>
+				</div>
+				<div class="col-md-5">
+					<a class="twitter-timeline" height="400" href="https://twitter.com/bluehalifax" data-widget-id="576644444902002688">Tweets by @bluehalifax</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div> <!--row featurette-->
 
-
-            <!--<div class="col-md-5">
-                <a class="twitter-timeline" href="https://twitter.com/bluehalifax" data-widget-id="576644444902002688">Tweets by @bluehalifax</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              </div>
-            </div>
-            <hr class="featurette-divider">-->
-            
-          </div>
-        </div>
-      </div>
-
-        </body>
+		</div> <!-- container-->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
 
-  </body>
-  </html>
+	</body>
+</html>
