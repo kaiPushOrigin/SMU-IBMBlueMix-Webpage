@@ -5,6 +5,7 @@
 .bg {
   	background: no-repeat center center;
   	width: 100%;
+  	margin-top: 40px;
   	top:0;
   	left:0;
   	z-index: -1;
@@ -19,6 +20,13 @@
 .timer-area {
 	background-color: #000;
 	text-align: center;
+	height: auto;
+  	margin: 0 auto;
+
+}
+
+ul#countdown {
+	margin-right: 30px;
 }
 
 ul#countdown li{
@@ -47,10 +55,12 @@ ul#countdown p{
   width: 90%;
   height: auto;
   margin: 0 auto;
+  padding-top: 0px;
 }
 
 .bluemix {
   width: 100%;
+  padding-top: 0px;
   height: auto;
   margin: 0 auto;
 }
@@ -58,6 +68,7 @@ ul#countdown p{
 .feedNS {
   width: 90%;
   height: auto;
+  padding-top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
