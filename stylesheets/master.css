@@ -62,3 +62,8 @@ ul#countdown p{
   margin-right: auto;
 }
 
+ul#tutorialLinks {
+	font-size: 20px;
+	font-weight: bold;
+}
+
