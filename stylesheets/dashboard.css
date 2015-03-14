@@ -1,0 +1,174 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  background-color: #800000;
+ /* background-image:url('../b1.jpg');
+  background-size: 100% 100%;*/
+  color: #fff;
+}
+
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.form-control {
+margin-top: 8px;
+width: 225px;
+}
+
+.btn-success {
+  margin-top: -57px;
+  margin-left: 235px;
+}
+
+
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: block;
+    padding: 70px 20px 20px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-left: -20px;
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+}
+.nav-sidebar > li > a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-left: 0px;
+    padding-right: 250px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Navbar
+ */
+
+ .navbar-form {
+  margin-top: 0;
+  padding-top: 10px;
+  padding-right: 20px;
+ }
+
+ .navmenu-inverse {
+  background-color: #000;
+ }
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  border-radius: 50%;
+}
+
+#footerMenu {
+  margin:auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+#footerLinks {
+  padding: 0px;
+  font-size: 16px;
+  padding-bottom: 0px;
+}
+
+#firstLink {
+  color: #fff;
+  padding-left: 14px;
+  padding-bottom: 0px;
+
+}
+
+#secondLink {
+  color: #fff;
+  position: relative;
+  padding-left: 14px;
+  padding-bottom: 0px;
+}
+
+
+#thirdLink {
+  color: #fff;
+  padding-left: 14px;
+  padding-bottom: 0px;
+}
+
+#fourthLink {
+  color: #fff;
+  padding-left: 14px;
+  padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
